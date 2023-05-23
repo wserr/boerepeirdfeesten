@@ -1,0 +1,37 @@
+.container {
+    background-color: indigo;
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    min-height: 2.75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1rem;
+    height: 5vh;
+}
+.item,
+.firstitem {
+    display:flex;
+    align-items: center;
+    color: #ebebeb;
+    text-decoration: none;
+}
+.item {
+    margin-left: 1rem;
+}
+.firstitem {
+    margin-right: auto;
+}
+.icon {
+    width: 20px;
+}
+
+.navtext {
+    padding: 5px;
+}
+
+@media (max-width: 40rem) {
+    .navtext {
+        display: none;
+    }
+}

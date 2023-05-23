@@ -1,0 +1,7 @@
+
+.content {
+    display:flex;
+    height: 92vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
