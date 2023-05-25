@@ -1,5 +1,4 @@
 import { AppProps } from "next/app";
-import "../app/globals.css";
 import Layout from "@/app/layout";
 
 export const metadata = {
