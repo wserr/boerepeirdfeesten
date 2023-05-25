@@ -10,8 +10,8 @@ export default class Sponsors extends Component {
     return (
       <>
         <p>
-          Met dank aan volgende <b>sponsors</b>, die het event mede mogelijk gemaakt
-          hebben.
+          Met dank aan volgende <b>sponsors</b>, die het event mede mogelijk
+          gemaakt hebben.
         </p>
         <Carousel
           transitionTime={1000}
@@ -21,28 +21,28 @@ export default class Sponsors extends Component {
           infiniteLoop={true}
         >
           <div className={styles.imagecontainer}>
-            <img className={styles.image} src="/sponsor_1.png" alt="image1" />
+            <img className={styles.image} src="sponsor_1.png" alt="image1" />
           </div>
           <div className={styles.imagecontainer}>
-            <img className={styles.image} src="/sponsor_2.png" alt="image2" />
+            <img className={styles.image} src="sponsor_2.png" alt="image2" />
           </div>
           <div className={styles.imagecontainer}>
-            <img className={styles.image} src="/sponsor_3.png" alt="image3" />
+            <img className={styles.image} src="sponsor_3.png" alt="image3" />
           </div>
           <div className={styles.imagecontainer}>
-            <img className={styles.image} src="/sponsor_4.png" alt="image4" />
+            <img className={styles.image} src="sponsor_4.png" alt="image4" />
           </div>
           <div className={styles.imagecontainer}>
-            <img className={styles.image} src="/sponsor_5.png" alt="image5" />
+            <img className={styles.image} src="sponsor_5.png" alt="image5" />
           </div>
           <div className={styles.imagecontainer}>
-            <img className={styles.image} src="/sponsor_6.png" alt="image6" />
+            <img className={styles.image} src="sponsor_6.png" alt="image6" />
           </div>
           <div className={styles.imagecontainer}>
-            <img className={styles.image} src="/sponsor_7.png" alt="image7" />
+            <img className={styles.image} src="sponsor_7.png" alt="image7" />
           </div>
           <div className={styles.imagecontainer}>
-            <img className={styles.image} src="/sponsor_8.png" alt="image8" />
+            <img className={styles.image} src="sponsor_8.png" alt="image8" />
           </div>
         </Carousel>
       </>
