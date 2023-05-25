@@ -1,0 +1,8 @@
+.imagecontainer {
+    height: 100%;
+    display: flex;
+}
+.image {
+    margin-top: auto;
+    margin-bottom: auto;
+}

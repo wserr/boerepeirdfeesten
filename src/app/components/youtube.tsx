@@ -1,8 +1,11 @@
-export const Youtube = () => (
+interface YoutubeProps {
+    code: string
+}
+
+export const Youtube = (props: YoutubeProps) => (
   <div className="embed-container">
     <iframe
-      src="https://www.youtube.com/embed/QILiHiTD3uc"
-      frameborder="0"
+      src={`https://www.youtube.com/embed/${props.code}`}
       allowFullScreen
     ></iframe>
   </div>
