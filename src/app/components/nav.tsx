@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export const Nav = () => (
   <div className={styles.container}>
-    <Link href="/" className={styles.firstitem}>
+    <Link href="/#" className={styles.firstitem}>
       <h3>Boerepeirdfeesten</h3>
     </Link>
-    <Link href="/" className={styles.item}>
+    <Link href="/#" className={styles.item}>
       <FontAwesomeIcon icon={faHouse} className={styles.icon} />
       <p className={styles.navtext}>Home</p>
     </Link>

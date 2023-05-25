@@ -1,7 +1,8 @@
 import { AppProps } from "next/app";
 import Layout from "@/app/layout";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Boerepeirdfeesten",
   description: "Boerepeirdfeesten Sellewie Beneden - eerste editie",
 };
