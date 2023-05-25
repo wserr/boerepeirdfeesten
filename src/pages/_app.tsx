@@ -1,3 +1,4 @@
+import { AppProps } from "next/app";
 import "../app/globals.css";
 import Layout from "@/app/layout";
 
@@ -6,7 +7,11 @@ export const metadata = {
   description: "Boerepeirdfeesten Sellewie Beneden - eerste editie",
 };
 
-export default function MyApp({ Component, pageProps }) {
+interface CustomPageProps { // <--- your custom page props
+   // your props
+}
+
+export default function MyApp({ Component, pageProps }: AppProps<CustomPageProps>) {
   return (
     <Layout>
         <Component {...pageProps} />
