@@ -13,7 +13,7 @@ export const HomeComponent = () => (
     <p>
       <b>De boerepeirdfeesten</b> zijn een evenement, in het leven geroepen door het
       wijkbestuur van Sellewie beneden. Trek de ruiterschoenen aan, neem het
-      paard bij de hand, en kom in volle galop naar chiro sellewie!
+      paard bij de hand, en kom in volle galop naar het buurthuis van Sellewie!
     </p>
     <h2>Waar?</h2>
     <div className={styles.containeritem}>

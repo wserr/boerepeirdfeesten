@@ -44,6 +44,15 @@ export default class Sponsors extends Component {
           <div className={styles.imagecontainer}>
             <img className={styles.image} src="sponsor_8.png" alt="image8" />
           </div>
+          <div className={styles.imagecontainer}>
+            <img className={styles.image} src="sponsor_9.png" alt="image9" />
+          </div>
+          <div className={styles.imagecontainer}>
+            <img className={styles.image} src="sponsor_10.png" alt="image10" />
+          </div>
+          <div className={styles.imagecontainer}>
+            <img className={styles.image} src="sponsor_11.png" alt="image11" />
+          </div>
         </Carousel>
       </>
     );
