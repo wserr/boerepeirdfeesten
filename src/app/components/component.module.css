@@ -1,7 +1,5 @@
 .container {
-    width: 40%;
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
 }
 
 .containeritem {
@@ -12,8 +10,18 @@
     height: 500px;
 }
 
-@media (max-width: 40rem) {
+@media (min-width: 600px) {
     .container {
-        width: 100%;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container {
+        width: 40%;
+        margin-right: auto;
+        margin-left: auto;
     }
 }

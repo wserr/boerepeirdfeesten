@@ -12,10 +12,9 @@ export default class Sponsors extends Component {
         <p>
           Met dank aan volgende <b>sponsors</b>, die het event mede mogelijk
           gemaakt hebben.
-        </p>
-        <Carousel
+        </p> <Carousel
           transitionTime={1000}
-          interval={2000}
+          interval={4000}
           autoPlay={true}
           showThumbs={false}
           infiniteLoop={true}
