@@ -5,6 +5,12 @@ import { Youtube } from "./youtube";
 export const InstructiesComponent = () => (
   <div className={styles.container}>
     <h2>Instructies - hoe maak ik een stokpaardje?</h2>
+    <p>
+      Nog geen stokpaardje ontvangen? Download de template 
+      <b>
+        <a href="boerepeirdfeesten-template.pdf" download> hier</a>
+      </b>
+    </p>
     <div className={styles.containeritem}>
       <Youtube code="muMwcUJwl_4" />
     </div>

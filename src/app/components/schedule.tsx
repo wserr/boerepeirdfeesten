@@ -1,5 +1,6 @@
 export const Schedule = () => (
   <>
+    <p>De boerepeirdfeesten vinden plaats op <b>zaterdag 1 juli</b></p>
     <table>
       <tbody>
         <tr>
