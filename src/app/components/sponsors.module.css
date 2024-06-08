@@ -1,8 +1,11 @@
 .imagecontainer {
-    height: 100%;
-    display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%
 }
 .image {
-    margin-top: auto;
-    margin-bottom: auto;
+  width: auto;
+  height: auto;
+  object-fit: scale-down;
 }

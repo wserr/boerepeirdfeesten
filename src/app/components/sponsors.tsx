@@ -6,54 +6,111 @@ import { Carousel } from "react-responsive-carousel";
 import styles from "./sponsors.module.css";
 
 export default class Sponsors extends Component {
-  render() {
-    return (
-      <>
-        <p>
-          Met dank aan volgende <b>sponsors</b>, die het event mede mogelijk
-          gemaakt hebben.
-        </p> <Carousel
-          transitionTime={1000}
-          interval={4000}
-          autoPlay={true}
-          showThumbs={false}
-          infiniteLoop={true}
-        >
-          <div className={styles.imagecontainer}>
-            <img className={styles.image} src="sponsor_1.png" alt="image1" />
-          </div>
-          <div className={styles.imagecontainer}>
-            <img className={styles.image} src="sponsor_2.png" alt="image2" />
-          </div>
-          <div className={styles.imagecontainer}>
-            <img className={styles.image} src="sponsor_3.png" alt="image3" />
-          </div>
-          <div className={styles.imagecontainer}>
-            <img className={styles.image} src="sponsor_4.png" alt="image4" />
-          </div>
-          <div className={styles.imagecontainer}>
-            <img className={styles.image} src="sponsor_5.png" alt="image5" />
-          </div>
-          <div className={styles.imagecontainer}>
-            <img className={styles.image} src="sponsor_6.png" alt="image6" />
-          </div>
-          <div className={styles.imagecontainer}>
-            <img className={styles.image} src="sponsor_7.png" alt="image7" />
-          </div>
-          <div className={styles.imagecontainer}>
-            <img className={styles.image} src="sponsor_8.png" alt="image8" />
-          </div>
-          <div className={styles.imagecontainer}>
-            <img className={styles.image} src="sponsor_9.png" alt="image9" />
-          </div>
-          <div className={styles.imagecontainer}>
-            <img className={styles.image} src="sponsor_10.png" alt="image10" />
-          </div>
-          <div className={styles.imagecontainer}>
-            <img className={styles.image} src="sponsor_11.png" alt="image11" />
-          </div>
-        </Carousel>
-      </>
-    );
-  }
+	render() {
+		return (
+			<>
+				<p>
+					Met dank aan volgende <b>sponsors</b>, die het event mede mogelijk
+					gemaakt hebben.
+				</p> <Carousel
+					transitionTime={1000}
+					interval={4000}
+					autoPlay={true}
+					showThumbs={false}
+					infiniteLoop={true}
+				>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="agristo.jpg" alt="agristo" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="bourgeois.jpg" alt="bourgeois" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="christophedelrue.png" alt="christophedelrue" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="davina.png" alt="davina" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="dewaele.jpg" alt="dewaele" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="dworkx.jpeg" alt="dworkx" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="eeckhout.jpg" alt="eeckhout" />
+					</div>
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="ellendemets.png" alt="ellendemets" />
+					</div>
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="estelco.png" alt="estelco" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="finipur.png" alt="finipur" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="foxy.png" alt="foxy" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="kartonnage_lambrecht.jpg" alt="kartonnage_lambrecht" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="movealltheway.png" alt="movealltheway" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="nelsondevos.png" alt="nelsondevos" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="nickderoo.png" alt="nickderoo" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="nielslutin.jpg" alt="nielslutin" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="putman.png" alt="putman" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="remelle.png" alt="remelle" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="shary.jpg" alt="shary" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="taelman.png" alt="taelman" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="tdk.jpg" alt="tdk" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="tommeenergie.png" alt="tommeenergie" />
+					</div>
+
+					<div className={styles.imagecontainer}>
+						<img className={styles.image} src="vanhoutte.png" alt="vanhoutte" />
+					</div>
+				</Carousel>
+			</>
+		);
+	}
 }
