@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Boerepeirdfeesten",
-  description: "Boerepeirdfeesten Sellewie Beneden - eerste editie",
+  description: "Boerepeirdfeesten Sellewie Beneden - tweede editie",
 };
 
 interface CustomPageProps { // <--- your custom page props

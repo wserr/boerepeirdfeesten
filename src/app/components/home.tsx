@@ -6,7 +6,7 @@ import { Youtube } from "./youtube";
 
 export const HomeComponent = () => (
   <div className={styles.container}>
-    <h2>De boerepeirdfeesten - eerste editie</h2>
+    <h2>De boerepeirdfeesten - tweede editie</h2>
     <div className={styles.containeritem}>
       <Youtube code="A9Y0zuhgLW4" />
     </div>
