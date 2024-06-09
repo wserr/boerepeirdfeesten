@@ -8,11 +8,7 @@ export const InstructiesComponent = () => (
     <p>
       Nog geen stokpaardje ontvangen? Download de template in
       <b>
-        <a href="SWB_2023_A4.pdf" download> A4 </a>
-      </b>
-      of in 
-      <b>
-        <a href="SWB_2023_A3.pdf" download> A3 </a>
+        <a href="SWB_2024.pdf" download> A3 </a>
       </b>
       formaat
     </p>

@@ -16,8 +16,9 @@ export default class Sponsors extends Component {
 					transitionTime={1000}
 					interval={4000}
 					autoPlay={true}
-					showThumbs={false}
+					showThumbs={true}
 					infiniteLoop={true}
+					
 				>
 
 					<div className={styles.imagecontainer}>
@@ -51,19 +52,14 @@ export default class Sponsors extends Component {
 						<img className={styles.image} src="ellendemets.png" alt="ellendemets" />
 					</div>
 					<div className={styles.imagecontainer}>
-						<img className={styles.image} src="estelco.png" alt="estelco" />
-					</div>
-
-					<div className={styles.imagecontainer}>
 						<img className={styles.image} src="finipur.png" alt="finipur" />
 					</div>
-
 					<div className={styles.imagecontainer}>
 						<img className={styles.image} src="foxy.png" alt="foxy" />
 					</div>
 
 					<div className={styles.imagecontainer}>
-						<img className={styles.image} src="kartonnage_lambrecht.jpg" alt="kartonnage_lambrecht" />
+						<img className={styles.image} src="kartonnage_2.jpg" alt="kartonnage_lambrecht" />
 					</div>
 
 					<div className={styles.imagecontainer}>
@@ -103,7 +99,7 @@ export default class Sponsors extends Component {
 					</div>
 
 					<div className={styles.imagecontainer}>
-						<img className={styles.image} src="tommeenergie.png" alt="tommeenergie" />
+						<img className={styles.image} src="tommeenergie_2.png" alt="tommeenergie" />
 					</div>
 
 					<div className={styles.imagecontainer}>

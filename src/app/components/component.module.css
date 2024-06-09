@@ -6,10 +6,6 @@
     width: 100%;
 }
 
-.carousel {
-    height: 500px;
-}
-
 @media (min-width: 600px) {
     .container {
         width: 70%;
